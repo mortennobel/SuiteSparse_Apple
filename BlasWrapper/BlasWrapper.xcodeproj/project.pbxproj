@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE289C6D1C575C000024AEC1 /* BlasWrapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FE289C6C1C575C000024AEC1 /* BlasWrapper.h */; };
+		FE289C6F1C575C000024AEC1 /* BlasWrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = FE289C6E1C575C000024AEC1 /* BlasWrapper.c */; };
+		FE289C761C575C330024AEC1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE289C751C575C330024AEC1 /* Accelerate.framework */; };
+		FE289C7F1C57714E0024AEC1 /* BlasWrapper.c in Sources */ = {isa = PBXBuildFile; fileRef = FE289C6E1C575C000024AEC1 /* BlasWrapper.c */; };
+		FE289C811C5771560024AEC1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE289C801C5771560024AEC1 /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FE289C671C575C000024AEC1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				FE289C6D1C575C000024AEC1 /* BlasWrapper.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FE289C691C575C000024AEC1 /* libBlasWrapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBlasWrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE289C6C1C575C000024AEC1 /* BlasWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlasWrapper.h; sourceTree = "<group>"; };
+		FE289C6E1C575C000024AEC1 /* BlasWrapper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BlasWrapper.c; sourceTree = "<group>"; };
+		FE289C751C575C330024AEC1 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FE289C7B1C5771380024AEC1 /* libBlasWrapOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBlasWrapOSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE289C801C5771560024AEC1 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE289C661C575C000024AEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE289C761C575C330024AEC1 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE289C781C5771380024AEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE289C811C5771560024AEC1 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE289C601C575C000024AEC1 = {
+			isa = PBXGroup;
+			children = (
+				FE289C801C5771560024AEC1 /* Accelerate.framework */,
+				FE289C751C575C330024AEC1 /* Accelerate.framework */,
+				FE289C6B1C575C000024AEC1 /* BlasWrapper */,
+				FE289C6A1C575C000024AEC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE289C6A1C575C000024AEC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE289C691C575C000024AEC1 /* libBlasWrapper.a */,
+				FE289C7B1C5771380024AEC1 /* libBlasWrapOSX.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE289C6B1C575C000024AEC1 /* BlasWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				FE289C6C1C575C000024AEC1 /* BlasWrapper.h */,
+				FE289C6E1C575C000024AEC1 /* BlasWrapper.c */,
+			);
+			path = BlasWrapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FE289C791C5771380024AEC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FE289C681C575C000024AEC1 /* BlasWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE289C721C575C000024AEC1 /* Build configuration list for PBXNativeTarget "BlasWrapper" */;
+			buildPhases = (
+				FE289C651C575C000024AEC1 /* Sources */,
+				FE289C661C575C000024AEC1 /* Frameworks */,
+				FE289C671C575C000024AEC1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlasWrapper;
+			productName = BlasWrapper;
+			productReference = FE289C691C575C000024AEC1 /* libBlasWrapper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE289C7A1C5771380024AEC1 /* BlasWrapOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE289C7C1C5771380024AEC1 /* Build configuration list for PBXNativeTarget "BlasWrapOSX" */;
+			buildPhases = (
+				FE289C771C5771380024AEC1 /* Sources */,
+				FE289C781C5771380024AEC1 /* Frameworks */,
+				FE289C791C5771380024AEC1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlasWrapOSX;
+			productName = BlasWrapOSX;
+			productReference = FE289C7B1C5771380024AEC1 /* libBlasWrapOSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE289C611C575C000024AEC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Morten Nobel-Joergensen";
+				TargetAttributes = {
+					FE289C681C575C000024AEC1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FE289C7A1C5771380024AEC1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = FE289C641C575C000024AEC1 /* Build configuration list for PBXProject "BlasWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE289C601C575C000024AEC1;
+			productRefGroup = FE289C6A1C575C000024AEC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE289C681C575C000024AEC1 /* BlasWrapper */,
+				FE289C7A1C5771380024AEC1 /* BlasWrapOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE289C651C575C000024AEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE289C6F1C575C000024AEC1 /* BlasWrapper.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE289C771C5771380024AEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE289C7F1C57714E0024AEC1 /* BlasWrapper.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FE289C701C575C000024AEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE289C711C575C000024AEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE289C731C575C000024AEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FE289C741C575C000024AEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FE289C7D1C5771380024AEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FE289C7E1C5771380024AEC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE289C641C575C000024AEC1 /* Build configuration list for PBXProject "BlasWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE289C701C575C000024AEC1 /* Debug */,
+				FE289C711C575C000024AEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE289C721C575C000024AEC1 /* Build configuration list for PBXNativeTarget "BlasWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE289C731C575C000024AEC1 /* Debug */,
+				FE289C741C575C000024AEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE289C7C1C5771380024AEC1 /* Build configuration list for PBXNativeTarget "BlasWrapOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE289C7D1C5771380024AEC1 /* Debug */,
+				FE289C7E1C5771380024AEC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE289C611C575C000024AEC1 /* Project object */;
+}

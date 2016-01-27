@@ -1,0 +1,13 @@
+lipo -create libamd.2.4.1_i386.a libamd.2.4.1_x86_64.a -output libamd.2.4.1.a
+lipo -create libbtf.1.2.1_i386.a libbtf.1.2.1_x86_64.a -output libbtf.1.2.1.a
+lipo -create libcamd.2.4.1_i386.a libcamd.2.4.1_x86_64.a -output libcamd.2.4.1.a
+lipo -create libccolamd.2.9.1_i386.a libccolamd.2.9.1_x86_64.a -output libccolamd.2.9.1.a
+lipo -create libcholmod.3.0.3_i386.a libcholmod.3.0.3_x86_64.a -output libcholmod.3.0.3.a
+lipo -create libcolamd.2.9.1_i386.a libcolamd.2.9.1_x86_64.a -output libcolamd.2.9.1.a
+lipo -create libcxsparse.3.1.4_i386.a libcxsparse.3.1.4_x86_64.a -output libcxsparse.3.1.4.a
+lipo -create libklu.1.3.2_i386.a libklu.1.3.2_x86_64.a -output libklu.1.3.2.a
+lipo -create libldl.2.2.1_i386.a libldl.2.2.1_x86_64.a -output libldl.2.2.1.a
+lipo -create librbio.2.2.1_i386.a librbio.2.2.1_x86_64.a -output librbio.2.2.1.a
+lipo -create libspqr.2.0.0_i386.a libspqr.2.0.0_x86_64.a -output libspqr.2.0.0.a
+lipo -create libsuitesparseconfig.4.4.0_i386.a libsuitesparseconfig.4.4.0_x86_64.a -output libsuitesparseconfig.4.4.0.a
+lipo -create libumfpack.5.7.1_i386.a libumfpack.5.7.1_x86_64.a -output libumfpack.5.7.1.a
